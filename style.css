@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #2196F3;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0b7dda;
+}
+
+.soundboards {
+    margin-top: 40px;
+}
+
+.soundboards h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.soundboards .sound-button {
+    display: inline-block;
+    margin: 10px;
+}
+
+.soundboards .sound-button button {
+    padding: 15px 25px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.soundboards .sound-button button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+audio {
+    margin-top: 20px;
+    width: 100%;
+}
