@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In The Mood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>In The Mood</h1>
+        <p>Enter your current mood, and we'll help you find the best soundboards to uplift your spirits!</p>
+        <form id="moodForm">
+            <input type="text" id="moodInput" placeholder="I am feeling..." required>
+            <button type="submit">Find Soundboards</button>
+        </form>
+        <div id="soundboards" class="soundboards hidden">
+            <h2>Positive Vibes</h2>
+            <div id="buttonsContainer"></div>
+        </div>
+    </div>
+
+    <audio id="audioPlayer" controls class="hidden"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
